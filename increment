@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main()
+{
+ int x = 10;  //x=11
+ //int y = x++;  //y=10 -its an increment.(--x) decreement.
+ int z = ++x;  // x= 11 y= 11
+ 
+ std::cout << z;
+  
+    return 0;
+}
+

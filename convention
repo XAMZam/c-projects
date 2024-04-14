@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main()
+{
+    int file_size; //snake case
+    int FileSize;  //pascal case
+    int fileSize; //camel case
+    int iFileSize; //Hungarian Notation
+    
+    // Initialize some values to demonstrate
+    file_size = 100; 
+    FileSize = 200;  
+    fileSize = 300; 
+    iFileSize = 400;
+    
+    std::cout << file_size;
+    std::cout << FileSize;
+    std::cout << fileSize;
+    std::cout << iFileSize;
+    
+    return 0;
+}
